@@ -1,0 +1,1 @@
+web: java -jar target/provaDeConceito-1.0.jar
