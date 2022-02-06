@@ -15,7 +15,7 @@ public class userController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/auth")
+    @PostMapping("/auth")
     public ResponseEntity<User> getUserAuth(@RequestBody UserForm form){
         return ResponseEntity.ok(userService.getUser(form));
     }
