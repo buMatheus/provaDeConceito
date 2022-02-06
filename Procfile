@@ -1,1 +1,1 @@
-web: java -jar target/provaDeConceito-1.0.jar
+web: java -Dserver.port=$PORT -Dspring.profile.active=prod -jar target/provaDeConceito-0.0.1-SNAPSHOT.jar
